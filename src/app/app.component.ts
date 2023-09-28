@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
+  selector: 'hinv-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'freeCodeCampAngular';
+  title: string = 'Hotel Inventory';
+
+  role = 'Admin';
 }
